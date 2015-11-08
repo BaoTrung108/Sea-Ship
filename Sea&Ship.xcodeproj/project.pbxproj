@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5998B941BEF231700D0590F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5998B931BEF231700D0590F /* main.m */; };
+		F5998B971BEF231700D0590F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5998B961BEF231700D0590F /* AppDelegate.m */; };
+		F5998B9A1BEF231700D0590F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5998B991BEF231700D0590F /* ViewController.m */; };
+		F5998B9D1BEF231700D0590F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5998B9B1BEF231700D0590F /* Main.storyboard */; };
+		F5998B9F1BEF231700D0590F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5998B9E1BEF231700D0590F /* Assets.xcassets */; };
+		F5998BA21BEF231700D0590F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5998BA01BEF231700D0590F /* LaunchScreen.storyboard */; };
+		F5998BAD1BEF231700D0590F /* Sea_ShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5998BAC1BEF231700D0590F /* Sea_ShipTests.m */; };
+		F5998BB81BEF231700D0590F /* Sea_ShipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5998BB71BEF231700D0590F /* Sea_ShipUITests.m */; };
+		F5998BC61BEF232F00D0590F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5998BC51BEF232F00D0590F /* AVFoundation.framework */; };
+		F5998BCD1BEF234F00D0590F /* ShipChuan.png in Resources */ = {isa = PBXBuildFile; fileRef = F5998BC91BEF234F00D0590F /* ShipChuan.png */; };
+		F5998BCE1BEF234F00D0590F /* tuyhongnhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5998BCA1BEF234F00D0590F /* tuyhongnhan.mp3 */; };
+		F5998BD51BEF2A5F00D0590F /* sea1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5998BD31BEF2A5F00D0590F /* sea1.png */; };
+		F5998BD61BEF2A5F00D0590F /* sea2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5998BD41BEF2A5F00D0590F /* sea2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5998BA91BEF231700D0590F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5998B871BEF231700D0590F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5998B8E1BEF231700D0590F;
+			remoteInfo = "Sea&Ship";
+		};
+		F5998BB41BEF231700D0590F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5998B871BEF231700D0590F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5998B8E1BEF231700D0590F;
+			remoteInfo = "Sea&Ship";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5998B8F1BEF231700D0590F /* Sea&Ship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sea&Ship.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5998B931BEF231700D0590F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5998B951BEF231700D0590F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5998B961BEF231700D0590F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5998B981BEF231700D0590F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5998B991BEF231700D0590F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5998B9C1BEF231700D0590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5998B9E1BEF231700D0590F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5998BA11BEF231700D0590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5998BA31BEF231700D0590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5998BA81BEF231700D0590F /* Sea&ShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sea&ShipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5998BAC1BEF231700D0590F /* Sea_ShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sea_ShipTests.m; sourceTree = "<group>"; };
+		F5998BAE1BEF231700D0590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5998BB31BEF231700D0590F /* Sea&ShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sea&ShipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5998BB71BEF231700D0590F /* Sea_ShipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sea_ShipUITests.m; sourceTree = "<group>"; };
+		F5998BB91BEF231700D0590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5998BC51BEF232F00D0590F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5998BC91BEF234F00D0590F /* ShipChuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShipChuan.png; sourceTree = "<group>"; };
+		F5998BCA1BEF234F00D0590F /* tuyhongnhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tuyhongnhan.mp3; sourceTree = "<group>"; };
+		F5998BD31BEF2A5F00D0590F /* sea1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea1.png; sourceTree = "<group>"; };
+		F5998BD41BEF2A5F00D0590F /* sea2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5998B8C1BEF231700D0590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5998BC61BEF232F00D0590F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5998BA51BEF231700D0590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5998BB01BEF231700D0590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5998B861BEF231700D0590F = {
+			isa = PBXGroup;
+			children = (
+				F5998BC51BEF232F00D0590F /* AVFoundation.framework */,
+				F5998B911BEF231700D0590F /* Sea&Ship */,
+				F5998BAB1BEF231700D0590F /* Sea&ShipTests */,
+				F5998BB61BEF231700D0590F /* Sea&ShipUITests */,
+				F5998B901BEF231700D0590F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5998B901BEF231700D0590F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5998B8F1BEF231700D0590F /* Sea&Ship.app */,
+				F5998BA81BEF231700D0590F /* Sea&ShipTests.xctest */,
+				F5998BB31BEF231700D0590F /* Sea&ShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5998B911BEF231700D0590F /* Sea&Ship */ = {
+			isa = PBXGroup;
+			children = (
+				F5998BD31BEF2A5F00D0590F /* sea1.png */,
+				F5998BD41BEF2A5F00D0590F /* sea2.png */,
+				F5998BC91BEF234F00D0590F /* ShipChuan.png */,
+				F5998BCA1BEF234F00D0590F /* tuyhongnhan.mp3 */,
+				F5998B951BEF231700D0590F /* AppDelegate.h */,
+				F5998B961BEF231700D0590F /* AppDelegate.m */,
+				F5998B981BEF231700D0590F /* ViewController.h */,
+				F5998B991BEF231700D0590F /* ViewController.m */,
+				F5998B9B1BEF231700D0590F /* Main.storyboard */,
+				F5998B9E1BEF231700D0590F /* Assets.xcassets */,
+				F5998BA01BEF231700D0590F /* LaunchScreen.storyboard */,
+				F5998BA31BEF231700D0590F /* Info.plist */,
+				F5998B921BEF231700D0590F /* Supporting Files */,
+			);
+			path = "Sea&Ship";
+			sourceTree = "<group>";
+		};
+		F5998B921BEF231700D0590F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5998B931BEF231700D0590F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5998BAB1BEF231700D0590F /* Sea&ShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5998BAC1BEF231700D0590F /* Sea_ShipTests.m */,
+				F5998BAE1BEF231700D0590F /* Info.plist */,
+			);
+			path = "Sea&ShipTests";
+			sourceTree = "<group>";
+		};
+		F5998BB61BEF231700D0590F /* Sea&ShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5998BB71BEF231700D0590F /* Sea_ShipUITests.m */,
+				F5998BB91BEF231700D0590F /* Info.plist */,
+			);
+			path = "Sea&ShipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5998B8E1BEF231700D0590F /* Sea&Ship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5998BBC1BEF231700D0590F /* Build configuration list for PBXNativeTarget "Sea&Ship" */;
+			buildPhases = (
+				F5998B8B1BEF231700D0590F /* Sources */,
+				F5998B8C1BEF231700D0590F /* Frameworks */,
+				F5998B8D1BEF231700D0590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sea&Ship";
+			productName = "Sea&Ship";
+			productReference = F5998B8F1BEF231700D0590F /* Sea&Ship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5998BA71BEF231700D0590F /* Sea&ShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5998BBF1BEF231700D0590F /* Build configuration list for PBXNativeTarget "Sea&ShipTests" */;
+			buildPhases = (
+				F5998BA41BEF231700D0590F /* Sources */,
+				F5998BA51BEF231700D0590F /* Frameworks */,
+				F5998BA61BEF231700D0590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5998BAA1BEF231700D0590F /* PBXTargetDependency */,
+			);
+			name = "Sea&ShipTests";
+			productName = "Sea&ShipTests";
+			productReference = F5998BA81BEF231700D0590F /* Sea&ShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5998BB21BEF231700D0590F /* Sea&ShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5998BC21BEF231700D0590F /* Build configuration list for PBXNativeTarget "Sea&ShipUITests" */;
+			buildPhases = (
+				F5998BAF1BEF231700D0590F /* Sources */,
+				F5998BB01BEF231700D0590F /* Frameworks */,
+				F5998BB11BEF231700D0590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5998BB51BEF231700D0590F /* PBXTargetDependency */,
+			);
+			name = "Sea&ShipUITests";
+			productName = "Sea&ShipUITests";
+			productReference = F5998BB31BEF231700D0590F /* Sea&ShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5998B871BEF231700D0590F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = baotrung;
+				TargetAttributes = {
+					F5998B8E1BEF231700D0590F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F5998BA71BEF231700D0590F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F5998B8E1BEF231700D0590F;
+					};
+					F5998BB21BEF231700D0590F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F5998B8E1BEF231700D0590F;
+					};
+				};
+			};
+			buildConfigurationList = F5998B8A1BEF231700D0590F /* Build configuration list for PBXProject "Sea&Ship" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5998B861BEF231700D0590F;
+			productRefGroup = F5998B901BEF231700D0590F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5998B8E1BEF231700D0590F /* Sea&Ship */,
+				F5998BA71BEF231700D0590F /* Sea&ShipTests */,
+				F5998BB21BEF231700D0590F /* Sea&ShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5998B8D1BEF231700D0590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5998BA21BEF231700D0590F /* LaunchScreen.storyboard in Resources */,
+				F5998BCE1BEF234F00D0590F /* tuyhongnhan.mp3 in Resources */,
+				F5998B9F1BEF231700D0590F /* Assets.xcassets in Resources */,
+				F5998B9D1BEF231700D0590F /* Main.storyboard in Resources */,
+				F5998BCD1BEF234F00D0590F /* ShipChuan.png in Resources */,
+				F5998BD61BEF2A5F00D0590F /* sea2.png in Resources */,
+				F5998BD51BEF2A5F00D0590F /* sea1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5998BA61BEF231700D0590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5998BB11BEF231700D0590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5998B8B1BEF231700D0590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5998B9A1BEF231700D0590F /* ViewController.m in Sources */,
+				F5998B971BEF231700D0590F /* AppDelegate.m in Sources */,
+				F5998B941BEF231700D0590F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5998BA41BEF231700D0590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5998BAD1BEF231700D0590F /* Sea_ShipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5998BAF1BEF231700D0590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5998BB81BEF231700D0590F /* Sea_ShipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5998BAA1BEF231700D0590F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5998B8E1BEF231700D0590F /* Sea&Ship */;
+			targetProxy = F5998BA91BEF231700D0590F /* PBXContainerItemProxy */;
+		};
+		F5998BB51BEF231700D0590F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5998B8E1BEF231700D0590F /* Sea&Ship */;
+			targetProxy = F5998BB41BEF231700D0590F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5998B9B1BEF231700D0590F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5998B9C1BEF231700D0590F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5998BA01BEF231700D0590F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5998BA11BEF231700D0590F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5998BBA1BEF231700D0590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5998BBB1BEF231700D0590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5998BBD1BEF231700D0590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sea&Ship/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baotrung.Sea-Ship";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5998BBE1BEF231700D0590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sea&Ship/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baotrung.Sea-Ship";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5998BC01BEF231700D0590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sea&ShipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baotrung.Sea-ShipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sea&Ship.app/Sea&Ship";
+			};
+			name = Debug;
+		};
+		F5998BC11BEF231700D0590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sea&ShipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baotrung.Sea-ShipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sea&Ship.app/Sea&Ship";
+			};
+			name = Release;
+		};
+		F5998BC31BEF231700D0590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sea&ShipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baotrung.Sea-ShipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sea&Ship";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5998BC41BEF231700D0590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sea&ShipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baotrung.Sea-ShipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sea&Ship";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5998B8A1BEF231700D0590F /* Build configuration list for PBXProject "Sea&Ship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5998BBA1BEF231700D0590F /* Debug */,
+				F5998BBB1BEF231700D0590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5998BBC1BEF231700D0590F /* Build configuration list for PBXNativeTarget "Sea&Ship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5998BBD1BEF231700D0590F /* Debug */,
+				F5998BBE1BEF231700D0590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5998BBF1BEF231700D0590F /* Build configuration list for PBXNativeTarget "Sea&ShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5998BC01BEF231700D0590F /* Debug */,
+				F5998BC11BEF231700D0590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5998BC21BEF231700D0590F /* Build configuration list for PBXNativeTarget "Sea&ShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5998BC31BEF231700D0590F /* Debug */,
+				F5998BC41BEF231700D0590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5998B871BEF231700D0590F /* Project object */;
+}
